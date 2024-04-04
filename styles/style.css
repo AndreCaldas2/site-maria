@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --cor-primaria: #FFDEDE;
-    --cor-secundaria: #B2704E;
-    --cor-terciaria: #FFAD84;
+    --cor-primaria: #FDE0FB;
+    --cor-secundaria: BLACK;
+    --cor-terciaria: #EEB5EB;
     --cor-hover: #FFC7EA;
     
     --fonte-primaria: "Abhaya Libre", serif;
@@ -59,7 +59,7 @@ body {
 }
 
 .titulo-destaque {
-    color: var(--cor-terciaria);
+    color: #EEB5EB;
 }
 
 
