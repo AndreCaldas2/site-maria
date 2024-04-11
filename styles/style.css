@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 :root {
-    --cor-primaria: #FDE0FB;
+    --cor-primaria: white;
     --cor-secundaria: BLACK;
-    --cor-terciaria: #EEB5EB;
+    --cor-terciaria: #D8CFFD;
     --cor-hover: #FFC7EA;
     
     --fonte-primaria: "Abhaya Libre", serif;
@@ -22,20 +22,24 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 0% 0% 0% 0%;
 }
 
 .cabecalho__menu {
-    display: flex;
-    gap: 80px;
+    padding: 10px;
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    width: 100%;
 }
 
 .cabecalho__menu__link {
+    padding: 50px;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
-    color: #BB2DB2;
+    color: var(--cor-primaria);
     text-decoration: none;
+    
 }
 
 .apresentacao {
@@ -59,7 +63,7 @@ body {
 }
 
 .titulo-destaque {
-    color: #BB2DB2;
+    color: var(--cor-terciaria);
 }
 
 
@@ -123,12 +127,14 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 10%;
-
+        padding: 0;
+        
     }
 
     .cabecalho__menu {
         justify-content: center;
+        
+        
     }
    
     .apresentacao {
