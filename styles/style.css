@@ -133,10 +133,18 @@ body {
    
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 5% 0% 5% 5%;
     }
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__links__navegacao {
+        width: 100%;
+    }
+
+    .apresentacao__imagem {
+        width: 100%;
     }
 
     .rodape {
