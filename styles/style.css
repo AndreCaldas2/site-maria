@@ -138,6 +138,10 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .rodape {
+        position: relative;
+    }
    
 }
 
